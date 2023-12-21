@@ -1,6 +1,6 @@
 # Milvus Spring Boot
 
 ## Run Docker Compose
-- Windows系統：`docker compose -f docker-compose-windows.yml up -d`
-- MacOS arm64系統：`docker compose -f docker-compose-arm64.yml up -d`
-- 若覺得執行的Command太長，可將自己系統的yml檔改名為「docker-compose.yml」即可直接運行 `docker compose up -d`
+為了因應不同開發人員的操作環境不同，提供了Windows和MacOS(arm64架構)的YAML檔，請將相對應的YMAL檔改名為「docker-compose.yml」即可。
+- Windows系統：`docker-compose-windows.yml`
+- MacOS arm64系統：`docker-compose-arm64.yml`
